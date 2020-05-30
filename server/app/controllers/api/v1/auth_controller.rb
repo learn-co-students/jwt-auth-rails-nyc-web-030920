@@ -1,3 +1,4 @@
+# Because the learn submit wants me to change something....
 class Api::V1::AuthController < ApplicationController
   skip_before_action :authorized, only: [:create]
 
